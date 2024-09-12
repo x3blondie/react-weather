@@ -22,7 +22,7 @@ function App() {
       <div className="search">
         <input 
         value={location}
-        onChange={event => setLocation(event.target .value)}
+        onChange={event => setLocation(event.target.value)}
         onKeyUp={searchLocation}
         placeholder="Enter Location"
         type="text" />
@@ -40,7 +40,7 @@ function App() {
           </div>
         </div>
 
-        {data.name != undefined && 
+        {data.name !== undefined && 
           <div className="bottom">
             <div className="feels">
               {data.main ? <p className="bold">{data.main.feels_like.toFixed()}°F</p> : null }
