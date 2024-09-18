@@ -55,10 +55,7 @@ function App() {
               <p>Wind Speed</p>
             </div>
           </div>
-        
         }
-        
-
 
       </div>
     </div>
